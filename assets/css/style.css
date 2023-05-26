@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 * {
     margin: 0%;
@@ -40,11 +41,11 @@
     max-width: 100%;
 }
 
-.justify_content_between {
+.justify-content-between {
     justify-content: space-between;
 }
 
-.flex_column {
+.flex-column {
     flex-direction: column;
 }
 
@@ -52,7 +53,7 @@
     text-align: center;
 }
 
-.justify_center {
+.justify-center {
     justify-content: center;
 }
 
@@ -64,30 +65,22 @@
 .mw_224{
     max-width: 224px;
 }
-.m_w {
-    max-width: 100%;
-}
-
 .d_flex {
     display: flex;
 }
-
-.align_iteam {
+.align_item  {
     align-items: center;
 }
-
 .pt_29 {
     padding-top: 29px;
 }
-
 .m_b_50 {
     margin-bottom: 50px;
 }
-
-.py {
-    padding-top: 14px;
-    padding-bottom: 14px;
+.max_width_866{
+    max-width: 866px;
 }
+
 .gap_24{
     gap: 24px;
 }
@@ -116,14 +109,6 @@ header ul li a :not(:last-child) {
     border: 1px #F4241E;
     border-radius: 10px;
 }
-
-.font_f {
-    width: 562px;
-    height: 28px;
-    left: 755px;
-    top: 20px;
-}
-
 .bg_image {
     background-image: url(../image/burgers.png);
     background-repeat: no-repeat;
@@ -132,7 +117,7 @@ header ul li a :not(:last-child) {
     background-color: #f6E300;
 }
 .bg_image_2 {
-    background-image: url(../image/png/Group\ 48095503.png);
+    background-image: url(../image/png/Group48095503.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -144,52 +129,35 @@ header ul li a :not(:last-child) {
 .mw_524{
     max-width: 524px;
 }
-
-.solona_height {
-    height: 215px 89px;
-}
-
 .margin_left {
     margin-left: 15px;
 }
-
 .margin_top_14 {
     margin-top: 14px;
 }
-
 .m_t_50 {
     margin-top: 50px;
 }
-
+.m_t_24{
+    margin-top: 24px;
+}
 .m_b_27 {
     margin-bottom: 27px;
 }
-
 .margin_top_30 {
     margin-top: 30px;
 }
-
 .m_t_b {
     margin-top: 50px;
     margin-bottom: 27px;
 }
-
-.margin_top_39 {
-    margin-top: 39px;
-}
-
-.m_t_50 {
-    margin-top: 50px;
-}
-
-.m_b_73 {
-    margin-bottom: 73px;
-}
-
 .f_s_36 {
     font-size: 36px;
 }
-
+.py{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .f_s_48 {
     font-size: 48px;
 }
@@ -197,11 +165,6 @@ header ul li a :not(:last-child) {
 .f_s_20 {
     font-size: 20px;
 }
-
-.margin_top_73 {
-    margin-top: 73px;
-}
-
 .text_color {
     color: #000000;
 }
@@ -302,22 +265,13 @@ header ul li a :not(:last-child) {
     margin-top: 30px;
 }
 
-.pt_35 {
-    padding-top: 35px;
+.pt_50 {
+    padding-top: 50px;
 }
 
 .pb_35 {
     padding-bottom: 35px;
 }
-
-.p_t_45 {
-    padding-bottom: 45px;
-}
-
-.f_s {
-    font-size: 20px;
-}
-
 .f_s_24 {
     font-size: 24px;
 }
@@ -325,12 +279,6 @@ header ul li a :not(:last-child) {
 .f_s_18 {
     font-size: 18px;
 }
-
-.py {
-    padding-top: 27px;
-    padding-bottom: 27px;
-}
-
 .mw_591 {
     max-width: 591px;
 }
@@ -367,10 +315,6 @@ ul li:last-child a:hover{
     background-color: #f4241E;
     color: white;
 }
-/* 
-ul li a {
-    margin: 25px;
-} */
 
 ul li:not(:last-child) a {
     margin-right: 0;
@@ -480,6 +424,8 @@ ul li:not(:last-child) a {
 .accordion-button {
     background: #FFF03F !important;
     height: 75px !important;
+    max-width: 866px;
+    margin: auto;
 }
 
 .max_width {
